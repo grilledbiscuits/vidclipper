@@ -1,0 +1,3 @@
+# VidClipper Python dependencies (installed into .venv by run.sh on first launch).
+# Everything else it needs - ffmpeg and ffprobe - comes from the system.
+PySide6>=6.6,<7

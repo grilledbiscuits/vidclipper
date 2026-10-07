@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=VidClipper
+GenericName=Video Splitter
+Comment=Split videos into segments - fast, lossless and fully offline
+Exec=@APP_DIR@/run.sh %f
+Path=@APP_DIR@
+Icon=@ICON@
+Terminal=false
+Categories=AudioVideo;Video;AudioVideoEditing;
+Keywords=video;split;cut;trim;clip;ffmpeg;segments;
+MimeType=video/mp4;video/quicktime;video/x-matroska;video/x-msvideo;video/webm;
+StartupNotify=true
+StartupWMClass=vidclipper
